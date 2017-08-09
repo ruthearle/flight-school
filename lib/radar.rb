@@ -1,5 +1,5 @@
-require "json"
 require "net/http"
+require "json"
 require "uri"
 
 Status = Struct.new(:code, :name, :city, :weather)
