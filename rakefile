@@ -1,0 +1,9 @@
+task :install do
+  puts "Running bundle install"
+  bundle install
+end
+
+task :test do
+  puts "Running tests"
+  bundle exec rspec
+end
